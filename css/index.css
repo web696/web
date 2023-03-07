@@ -1,0 +1,128 @@
+*{margin: 0px;padding: 0px;}
+
+li{list-style: none;}
+
+a{text-decoration: none;}
+
+img{vertical-align: bottom;}
+
+
+.header{
+	height: 64px;
+	background-color: #2E2E2E;	
+	
+}
+.header-content{
+	width: 1200px;
+	height: 64px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	width: 142px;
+	height: 64px;	
+}
+.nav{
+	height: 64px;
+	display: flex;
+	align-items: center;
+}
+.btn{
+	height: 64px;
+	display: flex;
+	align-items: center;	
+}
+.login, .register{
+	width: 55px;
+	height: 30px;
+	color:white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	
+	
+}
+.login{	
+	background-color: #e03f26;
+	margin-right: 5px;	
+	border-radius: 6px 0px 0px 6px;
+}
+.register{
+	background-color: #bc3c28;
+	border-radius: 0px 6px 6px 0px;
+}
+.login:hover{
+	background-color: #bc3c28;
+}
+.register:hover{
+	background-color: #e03f26;
+}
+.nav li{
+	margin: 0px 30px;
+}
+.nav li a{
+	color: white;
+}
+.nav .active a{
+	color: orangered;
+}
+.nav li a:hover{
+	color: orangered;
+}
+.banner{
+	overflow:hidden;
+	position: relative;
+	height: 450px;
+}
+.banner img{
+	position: absolute;
+	left: 50%;
+	margin-left: -960px;
+	top:0px;
+	
+}
+.base-title{
+	width: 1200px;
+	height: 90px;
+	margin: 0px auto;
+    text-align: center;
+	padding-top: 70px;
+}
+.base-title h1{
+	font-weight: normal;
+	font-size: 28px;
+	color: #333;
+	line-height: 42px;
+}
+.base-title p{
+	color: #666;
+	line-height: 34px;
+}
+.test{
+	width: 1200px;
+	height: 338px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.test div{
+	width: 338px;
+	height: 338px;	
+}
+.test div h3{
+	font-size: 18px;
+	color: #333;
+	line-height: 40px;
+}
+.test div p{
+	font-size: 18px;
+	color: #666;
+	line-height: 40px;
+}
+.test-banner{
+	height: 112px;
+	width: 1200px;
+	margin: 0px auto;
+}
